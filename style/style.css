@@ -83,7 +83,7 @@ p {
 /* intro section start */
 
 .rightIntro{
-    background: url(/Image/undraw_welcoming_xvuq\ 2.png);
+    background: url(../Image/undraw_welcoming_xvuq\ 2.png);
     min-width: 53vw;
     min-height: 68.3rem;
     display: inline-block;
@@ -138,7 +138,7 @@ section#introSertion {
 /* About section Start */
 
 .leftAbout{
-    background: url(/Image/undraw_Online_page_re_lhgx\ 1.png);
+    background: url(../Image/undraw_Online_page_re_lhgx\ 1.png);
     background-repeat: no-repeat;
     background-size: contain;
     min-width: 50%;
@@ -163,7 +163,7 @@ section#aboutMe {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url(/Image/About\ Me.png);
+    background: url(../Image/About\ Me.png);
     background-size: cover;
     padding: 3rem 0rem;
 }
@@ -195,7 +195,7 @@ section#services {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url(/Image/ServicesBG.png);
+    background: url(../Image/ServicesBG.png);
     background-size: cover;
     background-repeat: no-repeat;
     padding: 3rem 0rem;
@@ -292,7 +292,7 @@ section#services {
 
 section#skills {
     min-height: 100vh;
-    background: url(/Image/Skill\ Page.png);
+    background: url(../Image/Skill\ Page.png);
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -358,7 +358,7 @@ section#review {
     align-items: center;
     justify-content: space-around;
     min-height: 100vh;
-    background: url(/Image/ReviewPage.png);
+    background: url(../Image/ReviewPage.png);
     background-size: cover;
     background-repeat: no-repeat;
     padding: 3rem 0rem;
