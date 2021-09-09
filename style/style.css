@@ -1,0 +1,535 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+html{
+    font-size: 62.5%;/*10px*/
+}
+
+header{
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+img#logo{
+    width: 14rem;
+}
+ #navBar ul li{
+    margin:  0rem 2.5rem;
+    transition: .3s;
+    position: relative;
+}
+#navBar ul li a{
+    font-weight: 500;
+    transition: .3s;
+}
+.active a::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 60%;
+    height: .2rem;
+    background: #01FFC6;
+    margin-top: .5rem;
+}
+#navBar ul li:hover a{
+    color: #01FFC6 ;
+}
+h1 {
+    font-size: 10rem;
+}
+h3 {
+    font-size: 4rem;
+    font-weight: 400;
+}
+strong{
+    font-size: 5rem;
+    font-weight: 400;
+}
+a{
+    color: black;
+    font-size: 1.6rem;
+}
+p {
+    font-size: 1.5rem;
+}
+
+#navbarNav ul li a{
+    text-decoration: none;
+    font-weight: 400;
+    line-height: 3.2rem;
+}
+
+
+.active-nav {
+    background: #2F2E41;
+    color: white;
+    transition: .5s;
+}
+.active-a ul li a{
+    color:white;
+}
+/* header section end */
+
+
+/* intro section start */
+
+.rightIntro{
+    background: url(/Image/undraw_welcoming_xvuq\ 2.png);
+    min-width: 53vw;
+    min-height: 68.3rem;
+    display: inline-block;
+    background-size: contain;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+}
+
+.leftIntro {
+    display: inline-block;
+    width: 47%;
+    padding-left: 10rem;
+}
+
+section#introSertion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90.6vh;
+    padding: 3rem 0rem;
+}
+.leftIntro h1 {
+    color: #03e9f4;
+}
+
+.leftIntro strong {
+    color: #03e9f4;
+}
+
+.leftIntro button{
+    background: linear-gradient( #03e9f4,#01FFC6);
+    margin-left: 7.8rem;
+    border: none;
+    border-radius: 1rem;
+    height: 7.8rem;
+    width: 30rem;
+    font-size: 3rem;
+    color: white;
+    margin-top: 6rem;
+}
+.leftIntro button:hover{
+    background: linear-gradient( #01FFC6,#03e9f4);
+
+}
+
+
+/* intro section end */
+
+
+
+
+/* About section Start */
+
+.leftAbout{
+    background: url(/Image/undraw_Online_page_re_lhgx\ 1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-width: 50%;
+    min-height: 38rem;
+    display: inline-block;
+}
+
+
+
+
+.rightAbout {
+    display: inline-block;
+}
+.AboutWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section#aboutMe {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(/Image/About\ Me.png);
+    background-size: cover;
+    padding: 3rem 0rem;
+}
+
+.rightAbout {
+    text-align: center;
+}
+
+.rightAbout strong {
+    color: #01FFC6;
+}
+
+.rightAbout p {
+    margin: 4rem 0rem;
+    font-size: 1.9rem;
+}
+
+
+/* About section End */
+
+
+
+
+
+/* Services section Start */
+
+section#services {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(/Image/ServicesBG.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 3rem 0rem;
+}
+
+.innerCard {
+    text-align: center;
+    width: 25rem;
+    height: 90%;
+}
+
+.card {
+    display: inline-block;
+    width: 33.5rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 45rem;
+    border: none;
+    background: linear-gradient(#03e9f480, #01ffc68a);
+    color: white;
+    cursor: pointer;
+    border-radius: 1rem;
+    display: flex;
+    overflow: hidden;
+    padding: 1rem 0rem;
+}
+
+.innerCard h3 {
+    font-weight: 500;
+    margin: 1rem 0rem;
+}
+
+.ServicesWrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+
+.innerCard img {
+    background-size: cover;
+    width: 100%;
+    height: 83%;
+}
+
+#services .container strong{
+    text-align: center;
+    display: block;
+    margin-bottom: 10rem;
+}
+
+/* Services section End */
+
+
+
+
+/* skill section start */
+
+.leftSkill {
+    display: inline-block;
+}
+
+.rightSkill {
+    display: inline-block;
+    width: 50%;
+}
+
+.leftSkill img {
+    border-radius: 50%;
+    /* border: 4px solid #01FFC7; */
+    width: 100%;
+    transition: .5s;
+}
+
+.leftSkill p {
+    font-size: 1.7rem;
+    text-align: center;
+    margin: 3rem 0rem;
+}
+
+.leftSkill strong {
+    font-size: 5rem;
+    color: white;
+    margin: 2rem 0rem;
+}
+
+.leftSkill h3 {
+    color: #01FFC6;
+    text-align: center;
+    font-size: 5rem;
+    margin: 2rem 0rem;
+}
+
+section#skills {
+    min-height: 100vh;
+    background: url(/Image/Skill\ Page.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 0rem;
+}
+
+.leftSkill {
+    width: 50%;
+    text-align: center;
+}
+
+.skillWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.leftSkill .img:hover img {
+    transform: scale(1.1);
+}
+
+.img{
+    display: inline-block;
+    border-radius: 50%;
+    border: .4rem solid #01FFC7;
+    width: 43rem;
+    overflow: hidden;
+}
+
+.progress-bar {
+    background: #03e9f4;
+    border-radius: 2rem;
+    border: .3rem solid;
+}
+
+.progress {
+    background: white;
+    border-radius: 2rem;
+    height: 1.7rem;
+    margin-bottom: 4rem;
+}
+.odd{
+    background: #01FFC6;
+}
+
+.rightSkill h3 {
+    text-align: center;
+    margin: 3rem 0rem;
+}
+
+
+
+/* skill section End */
+
+
+/* review section start */
+
+section#review {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 100vh;
+    background: url(/Image/ReviewPage.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 3rem 0rem;
+}
+
+.cardWrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+section#review .innerCard img {
+    border-radius: 50%;
+    border: .3rem solid;
+    width: 100%;
+    height: 65%;
+    margin-top: 1.9rem;
+}
+
+section#review .innerCard {
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+/* review section end */
+
+
+
+/* contact section start */
+
+section#contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 3rem 0rem;
+}
+
+section#contact div.left {
+    display: inline-block;
+    width: 49%;
+}
+
+section#contact div.right {
+    display: inline-block;
+    width: 50%;
+    text-align: start;
+}
+
+.infowrapper {
+    display: flex;
+    margin: 4rem 0rem;
+}
+
+.infowrapper i {
+    color: #03e9f4;
+    font-size: 7rem;
+    margin: 0rem 3rem 0rem 0rem;
+}
+.contactForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fild input {
+    border: none;
+    border-radius: .7rem;
+    width: 100%;
+    padding: 1.3rem 2.8rem;
+    outline: none;
+    font-size: .9rem
+}
+
+.fild p {
+    color: white;
+    font-weight: 500;
+}
+
+.fild {
+    margin: 2rem 0rem;
+    width: 90%;
+}
+.formWrapper button {
+    border: none;
+    width: 60%;
+    padding: 1.5rem 0rem;
+    font-size: 2rem;
+    color: white;
+    background: linear-gradient(#00FFC4, #03E9F4);
+    border-radius: .5rem;
+    margin: 2rem 0rem;
+    border: .3rem solid;
+}
+.formWrapper {
+    background: linear-gradient(#03e9f4a6, #23f9c6b0);
+    width: 70%;
+    padding: 2.5rem 3rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+section#contact .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ContactLWrapper strong {
+    font-size: 7rem;
+}
+
+.info span {
+    font-size: 2rem;
+}
+
+.info h5 {
+    font-size: 2.2rem;
+    margin-top: 1rem;
+}
+section#contact .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ContactLWrapper strong {
+    font-size: 7rem;
+}
+
+.info span {
+    font-size: 2rem;
+}
+
+.info h5 {
+    font-size: 2.2rem;
+    margin-top: 1rem;
+}
+
+.formWrapper button:hover {
+    background: linear-gradient(#03E9F4,#00FFC4);
+}
+/* contact section end */
+
+
+/* footer section start */
+.footerWrapper {
+    display: flex;
+    text-align: center;
+    font-size: 2.2rem;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+footer#footer {
+    background: #01FFC6;
+    color: white;
+    min-height: 7.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerWrapper p {
+    margin: 0;
+}
+/* footer section end */
