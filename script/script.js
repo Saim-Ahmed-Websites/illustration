@@ -12,14 +12,15 @@ $(document).ready(function () {
 
         nav_a.classList.toggle('active-a', windowPosition)
 
-        // navBar.remove('navbar-light ', windowPosition);
-        // navBar.add('navbar-dark ', windowPosition);
-
-        // $("#navBar").hasClass("navbar-light", windowPosition) ? navBar.removeClass("navbar-light") && navBar.addClass("navbar-dark") : null
-
 
     })
 
+    $("#flexSwitchCheckDefault").click(function () {
+        // console.log('clicked')
+        $('body').toggleClass('dark')
+        $('a').toggleClass('dark')
+        $('.leftIntro button').toggleClass('dark')
+    })
 
 
 

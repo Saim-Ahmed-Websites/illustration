@@ -77,6 +77,9 @@ p {
 .active-a ul li a{
     color:white;
 }
+.nav-item div{
+    font-size: 1.6rem;
+}
 /* header section end */
 
 
@@ -123,6 +126,7 @@ section#introSertion {
     font-size: 3rem;
     color: white;
     margin-top: 6rem;
+    transition: .3s;
 }
 .leftIntro button:hover{
     background: linear-gradient( #01FFC6,#03e9f4);
@@ -533,3 +537,23 @@ footer#footer {
     margin: 0;
 }
 /* footer section end */
+
+/* dark mode css */
+
+body.dark{
+    background: black;
+    color: white;
+}
+a.dark{
+    color: white;
+}
+button.dark:hover{
+    -webkit-box-reflect: below 10px linear-gradient(transparent,#0002);
+    box-shadow: 0 0 10px #03e9f4, 
+    0 0 30px #03e9f4,
+     0 0 50px #03e9f4,
+     0 0 70px #03e9f4,
+     0 0 90px #03e9f4;
+}
+
+/*dark mode css end */
